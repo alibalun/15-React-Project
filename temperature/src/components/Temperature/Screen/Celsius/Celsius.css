@@ -1,0 +1,10 @@
+.celsius-icon{
+    display:inline-block;
+    position: absolute;
+    top:8px;
+    left:0px;
+}
+.celsius-container{
+    position:relative;
+    margin:0 5px;
+}
