@@ -1,0 +1,12 @@
+.todoitem-container{
+    margin:10px 0;
+    width:450px;
+    display:flex;
+    position:relative;
+}
+.todoitem-check{
+    margin:0 10px;
+    display:inline-block;
+    width: 25px;
+    height:25px;
+}

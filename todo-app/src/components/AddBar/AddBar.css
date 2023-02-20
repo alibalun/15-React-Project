@@ -1,0 +1,38 @@
+.addbar-header{
+    font-size:32px;
+    margin-left:50px;
+    margin-bottom:40px;
+}
+.addbar-input{
+    padding:5px 10px;
+    outline:none;
+    border-radius:4px;
+    border-color:rgba(128, 128, 128, 0.562);
+    width: 200px;
+    transition:all .15s;
+}
+.addbar-input:focus{
+    width:250px;
+}
+.addbar-button{
+    padding:6px 15px;
+    border:none;
+    background-color: #D9D9D9;
+    border-radius:4px;
+    margin-left:10px;
+    box-shadow:1px 1px 1px rgba(128, 128, 128, 0.301), 1px 1px 1px rgba(128, 128, 128, 0.301),1px 1px 1px rgba(128, 128, 128, 0.623);
+    transition:all .15s;
+    cursor:pointer;
+    position:absolute;
+    right:15px;
+}
+.addbar-button:hover{
+    box-shadow:none;
+    transform:translate(1px,1px);
+}
+.addbar-container{
+    display:inline-block;
+    width: 350px;
+    position:relative;
+    margin-bottom:50px;
+}
