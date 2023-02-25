@@ -1,0 +1,34 @@
+.noteitem-bottom-side{
+    width: 90%;
+    display:flex;
+    justify-content: space-between;
+}
+.noteitem-container{
+    user-select: none;
+    width: 30.4%;
+    height: 250px;
+    background-color: #FFF580;
+    border-radius:16px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:15px;
+}
+@media screen and (max-width:1020px){
+    .noteitem-container{
+        width:45%;
+    }   
+}
+@media screen and (max-width:600px){
+    .noteitem-container{
+        width: 100%;
+    }
+}
+.noteitem-content-container{
+    margin-top:8px;
+    width:85%;
+    height:85%;
+}
+.nibs-icon{
+    cursor:pointer;
+}

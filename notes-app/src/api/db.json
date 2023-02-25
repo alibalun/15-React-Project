@@ -1,0 +1,18 @@
+{
+  "notes": [
+    {
+      "content": "This is my first note",
+      "day": "2",
+      "month": "12",
+      "year": "2023",
+      "id": 1
+    },
+    {
+      "content": "This is my second note",
+      "day": "2",
+      "month": "12",
+      "year": "2023",
+      "id": 2
+    }
+  ]
+}

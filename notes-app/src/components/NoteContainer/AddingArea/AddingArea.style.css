@@ -1,0 +1,51 @@
+.addingarea-bottom-side{
+    width: 90%;
+    display:flex;
+    justify-content: space-between;
+}
+.addingarea-container{
+    user-select: none;
+    width: 30.4%;
+    height: 250px;
+    background-color: #48A39A;
+    border-radius:16px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:15px;
+}
+@media screen and (max-width:1020px){
+    .addingarea-container{
+        width:45%;
+    }   
+}
+@media screen and (max-width:600px){
+    .addingarea-container{
+        width: 100%;
+    }
+}
+.addingarea-content-container{
+    margin-top:8px;
+    width:85%;
+    height:85%;
+}
+.aa-save-btn{
+    border:none;
+    cursor:pointer;
+    padding:4px 12px;
+    border-radius:6px;
+    box-shadow: 0px 0px 1px 1px grey;
+}
+.aa-input-container{
+    display: inline-block;
+    width: 100%;
+    height: 80%;
+    background-color: transparent;
+    outline:none;
+    border:none;
+    resize: none;
+}
+.aa-remaining{
+    font-size:14px;
+    font-weight: 500;
+}

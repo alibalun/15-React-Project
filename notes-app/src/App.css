@@ -1,0 +1,8 @@
+.App-container{
+  display:flex;
+  justify-content: center;
+  user-select: none;
+}
+.App {
+  width: 80rem;
+}
