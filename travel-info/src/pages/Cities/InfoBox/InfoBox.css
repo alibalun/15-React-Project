@@ -1,0 +1,44 @@
+.infobox{
+    padding:10px;
+    width: 350px;
+    height: 370px;
+    display: inline-block;
+    /* background-color: #c2c3c5; */
+    box-shadow: 0 0 15px 1px grey;
+    vertical-align: top;
+    margin:10px 20px;
+}
+.infobox-image{
+    width: 100%;
+    height: 235px;
+}
+.infobox-header{
+    font-size: 28px;
+    margin:10px;
+    text-align: center;
+}
+.infobox-about{
+    font-size:16px;
+    font-weight: 400;
+    text-align: center;
+    display:inline-block;
+    width:100%;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+}
+.infobox-detail{
+    cursor:pointer;
+    padding:4px 8px;
+    float:right;
+    margin-top:10px;
+}
+@media screen and (max-width:790px){
+    .infobox{
+        width: 25rem;
+        margin:10px 0;
+    }
+    .infobox-image{
+        width: 100%;
+    }
+}

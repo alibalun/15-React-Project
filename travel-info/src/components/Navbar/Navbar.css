@@ -1,0 +1,13 @@
+.navbar-list{
+    padding:0;
+    height: 60px;
+    display:inline-flex;
+    align-items: center;
+    margin-left:30px;
+}
+.navbar-container{
+    display:flex;
+    justify-content: space-around;
+    background-color: #202124;
+    color:white;
+}

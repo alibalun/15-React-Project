@@ -1,0 +1,12 @@
+.socialmedia{
+    display:flex;
+}
+.socialmedia-icon{
+    margin:5px 10px;
+    cursor:pointer;
+    transition:all .15s;
+    color:white;
+}
+.socialmedia-icon:hover{
+    transform: rotate(360deg);
+}

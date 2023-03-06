@@ -1,0 +1,11 @@
+.navbar-logo{
+    display:inline-block;
+    font-size:24px;
+    margin:0 10px;
+    border-radius:25px;
+    padding:10px;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: bold;
+    cursor:pointer;
+    color:white;
+}

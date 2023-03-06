@@ -1,0 +1,8 @@
+.home{
+    margin:50px 0;
+    text-align: center;
+    height: calc(100vh - 155px);
+}
+.home-header, .home-content{
+    margin:10px 0;
+}

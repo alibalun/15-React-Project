@@ -1,0 +1,9 @@
+.navbar-item{
+    display:inline-block;
+    margin:0px 30px;
+    cursor:pointer;
+    color:white;
+}
+.navbar-item:hover{
+    color:rgb(182, 181, 181);
+}

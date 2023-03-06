@@ -1,0 +1,21 @@
+.infobox-container{
+    display:inline-block !important;
+    width: 78rem;
+}
+.main{
+    display:flex;
+    justify-content: center;
+    margin:50px 0;
+}
+@media  screen and (max-width:1185px) {
+    .infobox-container{
+        display:inline-block !important;
+        width: 50rem;
+    }
+}
+@media screen and (max-width:790px){
+
+    .infobox-container{
+        width: 25rem;
+    }
+}
